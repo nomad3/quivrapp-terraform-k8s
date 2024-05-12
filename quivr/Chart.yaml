@@ -1,0 +1,5 @@
+# Chart.yaml
+apiVersion: v2
+name: quivr
+description: A Helm chart for deploying Quivr app to Kubernetes
+version: 0.1.0

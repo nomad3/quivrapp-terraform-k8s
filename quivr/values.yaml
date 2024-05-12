@@ -1,0 +1,21 @@
+# values.yaml
+replicaCount: 1
+
+image:
+  repository: quivr/app
+  tag: latest
+  pullPolicy: IfNotPresent
+
+service:
+  type: ClusterIP
+  port: 80
+
+ingress:
+  enabled: false
+  annotations: {}
+  hosts:
+    - host: chart-example.local
+      paths: []
+
+resources: {}
+  # We usually leave this empty. You can customize it later.

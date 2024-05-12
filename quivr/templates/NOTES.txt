@@ -1,0 +1,6 @@
+# NOTES.txt
+# You can access Quiver app from inside your cluster by running:
+#
+#   kubectl port-forward service/{{ include "quiver.fullname" . }} {{ .Values.service.port }}:{{ .Values.service.port }}
+#
+# Then you can access Quiver app at http://localhost:{{ .Values.service.port }}
