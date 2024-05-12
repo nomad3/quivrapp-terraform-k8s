@@ -73,20 +73,12 @@ Once the deployment is complete, you can access the Quivr app by port-forwarding
 
 ```bash
 kubectl port-forward service/quivr 80:80
+```
+
 Then access the Quivr app at http://localhost:80.
 
 Clean Up
 To destroy the resources created by Terraform, run:
-
-bash
-Copy code
+```bash
 terraform destroy
-License
-This project is licensed under the MIT License - see the LICENSE file for details.
-
-javascript
-Copy code
-
-Replace `<repository_url>` with the actual URL of your Git repository.
-
-This `README.md` provides detailed instructions for setting up, deploying, accessing, a
+```
